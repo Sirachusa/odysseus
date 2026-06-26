@@ -38,6 +38,7 @@ logs/
 node_modules/
 services/node_modules/
 services/data/
+.npmrc
 
 # IDE / Editor
 .aider*
