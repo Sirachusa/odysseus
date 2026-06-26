@@ -11,7 +11,7 @@ class WebSearchTool:
         raw = content.strip()
         query = raw
         time_filter = None
-        max_pages = 5
+        max_pages = 2
         if raw.startswith("{"):
             try:
                 parsed = json.loads(raw)
